@@ -1,0 +1,4 @@
+.auto-repeatable-grid { // adjust the '100px' and '200px' as desired
+  grid-template-columns: repeat(auto-fill, [col-start] minmax(100px, 1fr) [col-end]);
+  grid-auto-rows: 200px;
+}
